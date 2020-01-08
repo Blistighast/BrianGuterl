@@ -34,11 +34,11 @@ const Experience = () => {
                         <div className="career-info">
                             <h4>Application Engineer</h4>
                             <p className="career-description">
-                                Managed all aspects of projects including customer relations, pricing,
+                                Managed all aspects of projects, including customer relations, pricing,
                                 ordering, and coordinating delivery for electrical equipment like switchboards
-                                and transformers. Coordinated with both inside and outside sales, suppliers, 
-                                contractors, and clients to maintain and meet schedules and budgets. Used 
-                                AutoCad to create custom electrical equipment and room layouts 
+                                and transformers. Coordinated with inside and outside sales, suppliers, 
+                                contractors, and clients in order to maintain and meet schedules and budgets. Used 
+                                AutoCad to create custom room and electrical equipment layouts 
                                 for examination and approval by the NYC Advisory board. </p>
                         </div>
                     </span>
@@ -50,11 +50,10 @@ const Experience = () => {
                         <div className="career-info">
                             <h4>Kitchen Designer</h4>
                             <p className="career-description">
-                                Designed high-end kitchen and living spaces layouts using AutoCad. 
-                                Consulted with clients to establish their needs. Created design concepts in 
-                                accordance with client taste. Using designs, created bill of materials for 
-                                devising budget. Coordinated with the client, designers, and construction, 
-                                installation, and factory personnel to manage deadlines and maintain the project's 
+                                Designed high-end kitchen and living space layouts using AutoCad. 
+                                Consulted with clients to establish their needs nd priorities. Created design concepts in 
+                                accordance with client direction. Used designs to create bills of materials. Coordinated with clients, designers, and construction, 
+                                installation, and factory personnel to manage deadlines and maintain project 
                                 schedule and budget.</p>
                         </div>
                     </span>
@@ -82,7 +81,7 @@ const Experience = () => {
                             <p className="career-description">
                                 Studied how to design and develop complex processes and systems involving 
                                 people, information, equipment, financial, and material assets, with an emphasis on 
-                                probabilistic methods, designing of experiments, and simulation. Learned the basics
+                                probabilistic methods, experiment design, and simulation. Learned the basics
                                 of MatLab, C and C++ to conduct simulations for experiments and the differences between
                                 development practices of Agile like Kanban and Scrum. Designed, modeled, and optimized
                                 a theoretical computer chip manufacturing factory for my Senior Design Project.</p>
