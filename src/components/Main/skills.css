@@ -1,0 +1,59 @@
+.skills-container {
+  font-family: "Raleway", sans-serif;
+  display:grid;
+  max-width: 100%;
+  background: #f3efe0;
+  margin: 0 auto;
+
+}
+
+.skills-body {
+  max-width: 800px;
+  padding-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.ability {
+  list-style: none;
+  padding-bottom: .3rem;
+}
+
+.stars-span {
+  justify-content: right;
+}
+
+.ability-title {
+  color: #434242;
+}
+
+.stars-span {
+  float: right;
+}
+
+
+.solidStar {
+  color: #029292;
+}
+
+.emptyStar {
+  color: #029292;
+}
+
+.ability:hover {
+  font-size: 1.12rem;
+  background: #c7c2b0d0;
+  text-decoration-line: underline;
+}
+
+
+/* media queries */
+@media (max-width: 1090px) {
+  .title {
+    max-width: 300px;
+  }
+
+  .ability {
+    padding-bottom: .5rem;
+  }
+}

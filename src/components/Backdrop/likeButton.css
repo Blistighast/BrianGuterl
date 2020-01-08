@@ -1,0 +1,26 @@
+.like-button {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    background: #4080FF;
+    color: white;
+    font-size:1rem;
+    border: none;
+    border-radius: 2px;
+}
+
+
+.check {
+    max-width: 14px;
+    padding-right: .4rem;
+    padding-top: 1px;
+}
+.thumbsUp {
+    max-width: 14px;
+    padding-right: .4rem;
+    padding-top: 1px;
+}
+
+.likes-counter {
+    margin-left: .4rem
+}

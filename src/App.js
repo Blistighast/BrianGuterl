@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import About from "./components/Main/about";
+import Skills from "./components/Main/skills";
+import Projects from "./components/Main/projects";
+import Toolbar from "./components/Toolbar/Toolbar";
+import Contact from "./components/Main/contact";
+import Experience from "./components/Main/experience";
+import ThemeContextProvider from "./contexts/ThemeContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ height: "100%" }}>
+    <ThemeContextProvider>
+      <Toolbar />
+      <main className="main">
+        <About />
+        <Skills />
+        <Experience />
+        <Projects />
+        <Contact />
+      </main>
+      </ThemeContextProvider>
     </div>
   );
 }

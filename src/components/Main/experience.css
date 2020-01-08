@@ -1,0 +1,89 @@
+.experience-container {
+    font-family: "Raleway", sans-serif;
+    max-width: 100%;
+    display: grid;
+    background: white;
+    margin: 0 auto;
+}
+
+.experience-body {
+    max-width: 800px;
+    padding-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.title h3 {
+    color: #029292;
+    font-weight: lighter;
+    font-size: 26px;
+    margin-bottom: 0;
+    text-align: left;
+  }
+
+  .experience-list {
+      text-align: left;
+  }
+
+  .experience-row {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  .experience-row h4 {
+    color: #434242;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+.career-period {
+    margin: 0;
+}
+  
+  .experience-row p {
+    color: #434242;
+    margin-top: 0
+  }
+
+  .career-info h4 {
+      margin-bottom: .5rem;
+  }
+
+  .career-title {
+      position: relative;
+      padding: 0 15px;
+      width: 33%;
+      
+  }
+  .career-info {
+    width: 66%;
+    padding: 0 15px;
+  }
+
+  .career-description {
+      margin: 0;
+  }
+
+  /* media queries */
+  @media (max-width: 1090px) {
+    .experience-row {
+        display: block;
+        padding-bottom: 2rem;
+    }
+
+    .career-title {
+        width: 100%;
+    }
+
+    .career-title h4 {
+        font-size: larger;
+    }
+
+    .career-info {
+        width: 100%;
+    }
+
+    .career-info h4 {
+        margin-bottom: 1rem;
+    }
+  }
