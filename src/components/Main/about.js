@@ -17,14 +17,14 @@ const About = () => {
           <div>
             <h2>About me</h2>
             <p>
-              I'm an engineer with 5 years of experience in industrial engineering and some programming 
-              experience. I used C, C++, and MatLab while pursuing my Industrial and Systems Engineering 
-              Degree, but didn't think to pursue programming as a career until late 2018. After talking 
-              with some friends who work in web development, I decided to pick it back up and started
-              some personal projects. From there I was immediately hooked in a way that didn't happen
-              in college. Since then I have spent almost every day practicing and learning new programming 
-              techniques in my spare time, focusing on front end development. I love building new 
-              and different projects, so I made this website as a place to collect them all together.</p>
+            I am an engineer with 5 years of industrial engineering experience. I also have experience with 
+            programming and am seeking a career opportunity that will enable me to demonstrate my skillset.
+            While pursuing my degree in Industrial and Systems Engineering, I gained experience with C, C++ and Matlab. 
+            While working in the industrial engineering field, I realized my interest in pursuing programming as a 
+            career.  I have further developed my programming skills by working with friends on web development and my 
+            own personal projects. This further ignited my interest and passion for programming! I continue to hone 
+            my skillset and work to learn new programming techniques, while focusing on front-end development. 
+            Below you can view a few of my “passion projects” as well as my resume and contact information.</p>
           </div>
           <div className="pic-holder">
             <img src="./img/briansuit.png" alt="me" className="about-pic" />
