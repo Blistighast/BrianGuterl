@@ -22,6 +22,7 @@ const Experience = () => {
                         <div className="career-info">
                             <h4>Owner</h4>
                             <p className="career-description">
+                                
                                 Started a general construction contracting business. Split duties 
                                 between taking care of administrative tasks and working on site.</p>
                         </div>

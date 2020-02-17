@@ -132,6 +132,16 @@ const Skills = () => {
           </span>
         </li>
         <li className="ability">
+          <span className="ability-title">XML</span>
+          <span className="stars-span">
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {emptyStar}
+            {emptyStar}
+          </span>
+        </li>
+        <li className="ability">
           <span className="ability-title">Django</span>
           <span className="stars-span">
             {solidStar}
