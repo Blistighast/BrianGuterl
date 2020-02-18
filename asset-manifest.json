@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/BrianGuterl/static/css/main.36c078f0.chunk.css",
+    "main.js": "/BrianGuterl/static/js/main.cd6f64c5.chunk.js",
+    "main.js.map": "/BrianGuterl/static/js/main.cd6f64c5.chunk.js.map",
+    "runtime-main.js": "/BrianGuterl/static/js/runtime-main.158769e0.js",
+    "runtime-main.js.map": "/BrianGuterl/static/js/runtime-main.158769e0.js.map",
+    "static/js/2.ec3b913d.chunk.js": "/BrianGuterl/static/js/2.ec3b913d.chunk.js",
+    "static/js/2.ec3b913d.chunk.js.map": "/BrianGuterl/static/js/2.ec3b913d.chunk.js.map",
+    "index.html": "/BrianGuterl/index.html",
+    "precache-manifest.81f643058ed62aa8d2ba874cc45af95d.js": "/BrianGuterl/precache-manifest.81f643058ed62aa8d2ba874cc45af95d.js",
+    "service-worker.js": "/BrianGuterl/service-worker.js",
+    "static/css/main.36c078f0.chunk.css.map": "/BrianGuterl/static/css/main.36c078f0.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.158769e0.js",
+    "static/js/2.ec3b913d.chunk.js",
+    "static/css/main.36c078f0.chunk.css",
+    "static/js/main.cd6f64c5.chunk.js"
+  ]
+}
