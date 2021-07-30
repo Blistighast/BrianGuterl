@@ -52,7 +52,7 @@ const Experience = () => {
                             <h4>Kitchen Designer</h4>
                             <p className="career-description">
                                 Designed high-end kitchen and living space layouts using AutoCad. 
-                                Consulted with clients to establish their needs nd priorities. Created design concepts in 
+                                Consulted with clients to establish their needs and priorities. Created design concepts in 
                                 accordance with client direction. Used designs to create bills of materials. Coordinated with clients, designers, and construction, 
                                 installation, and factory personnel to manage deadlines and maintain project 
                                 schedule and budget.</p>

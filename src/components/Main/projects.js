@@ -14,6 +14,12 @@ const Projects = () => {
         </h2>
         <div className="line" />
         <div className="projects-row">
+          <a href="https://game-exchange.brianguterl.com/">
+            <img src="./img/game-exchange.png" alt="game-exchange" className="project-link-pic" />
+          </a>
+          <a href="https://greenit.brianguterl.com/">
+            <img src="./img/greenit.png" alt="greenit" className="project-link-pic" />
+          </a>
           <a href="https://project-planner-7327b.web.app/">
             <img src="./img/ProjectPlanner.png" alt="project-planner" className="project-link-pic" />
           </a>
