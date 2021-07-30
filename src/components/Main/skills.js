@@ -10,7 +10,7 @@ const emptyStar = <FontAwesomeIcon icon={star2} className="emptyStar" />;
 const Skills = () => {
   return (
     <div className="skills-container" id="skills">
-    <body className="skills-body">
+    <div className="skills-body">
       <div className="title">
         <h1>Skills</h1>
         <h2>
@@ -52,6 +52,26 @@ const Skills = () => {
           </span>
         </li>
         <li className="ability">
+          <span className="ability-title">NextJS</span>
+          <span className="stars-span">
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {solidStar}
+          </span>
+        </li>
+        <li className="ability">
+          <span className="ability-title">Git</span>
+          <span className="stars-span">
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {solidStar}
+          </span>
+        </li>
+        <li className="ability">
           <span className="ability-title">Project Management</span>
           <span className="stars-span">
             {solidStar}
@@ -63,6 +83,36 @@ const Skills = () => {
         </li>
         <li className="ability">
           <span className="ability-title">CSS</span>
+          <span className="stars-span">
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {emptyStar}
+          </span>
+        </li>
+        <li className="ability">
+          <span className="ability-title">Node</span>
+          <span className="stars-span">
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {emptyStar}
+          </span>
+        </li>
+        <li className="ability">
+          <span className="ability-title">GraphQL</span>
+          <span className="stars-span">
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {emptyStar}
+          </span>
+        </li>
+        <li className="ability">
+          <span className="ability-title">Typescript</span>
           <span className="stars-span">
             {solidStar}
             {solidStar}
@@ -92,7 +142,7 @@ const Skills = () => {
           </span>
         </li>
         <li className="ability">
-          <span className="ability-title">Git</span>
+          <span className="ability-title">MongoDB</span>
           <span className="stars-span">
             {solidStar}
             {solidStar}
@@ -102,12 +152,62 @@ const Skills = () => {
           </span>
         </li>
         <li className="ability">
-          <span className="ability-title">Bootstrap</span>
+          <span className="ability-title">Apollo</span>
           <span className="stars-span">
             {solidStar}
             {solidStar}
             {solidStar}
             {solidStar}
+            {emptyStar}
+          </span>
+        </li>
+        <li className="ability">
+          <span className="ability-title">Postgres</span>
+          <span className="stars-span">
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {emptyStar}
+            {emptyStar}
+          </span>
+        </li>
+        <li className="ability">
+          <span className="ability-title">TypeORM</span>
+          <span className="stars-span">
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {emptyStar}
+            {emptyStar}
+          </span>
+        </li>
+        <li className="ability">
+          <span className="ability-title">URQL</span>
+          <span className="stars-span">
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {emptyStar}
+            {emptyStar}
+          </span>
+        </li>
+        <li className="ability">
+          <span className="ability-title">Express</span>
+          <span className="stars-span">
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {emptyStar}
+            {emptyStar}
+          </span>
+        </li>
+        <li className="ability">
+          <span className="ability-title">Bootstrap</span>
+          <span className="stars-span">
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {emptyStar}
             {emptyStar}
           </span>
         </li>
@@ -162,16 +262,6 @@ const Skills = () => {
           </span>
         </li>
         <li className="ability">
-          <span className="ability-title">MongoDB</span>
-          <span className="stars-span">
-            {solidStar}
-            {solidStar}
-            {solidStar}
-            {emptyStar}
-            {emptyStar}
-          </span>
-        </li>
-        <li className="ability">
           <span className="ability-title">C++</span>
           <span className="stars-span">
             {solidStar}
@@ -192,7 +282,7 @@ const Skills = () => {
           </span>
         </li>
       </ul>
-      </body>
+      </div>
     </div>
   );
 };

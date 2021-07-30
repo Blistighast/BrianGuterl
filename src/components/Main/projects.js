@@ -4,7 +4,7 @@ import "./projects.css"
 const Projects = () => {
   return (
     <div className='projects-container' id="projects">
-      <body className="projects-body">
+      <div className="projects-body">
         <div className='title'>
         <h1>Projects</h1>
         <h2>
@@ -20,6 +20,8 @@ const Projects = () => {
           <a href="https://greenit.brianguterl.com/">
             <img src="./img/greenit.png" alt="greenit" className="project-link-pic" />
           </a>
+        </div>
+        <div className="projects-row">
           <a href="https://project-planner-7327b.web.app/">
             <img src="./img/ProjectPlanner.png" alt="project-planner" className="project-link-pic" />
           </a>
@@ -36,7 +38,7 @@ const Projects = () => {
           </a>
         </div>
         </div>
-      </body>
+      </div>
     </div>
   );
 };

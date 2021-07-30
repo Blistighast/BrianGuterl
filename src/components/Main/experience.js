@@ -4,7 +4,7 @@ import "./experience.css";
 const Experience = () => {
     return ( 
         <div className='experience-container' id="experience">
-        <body className="experience-body">
+        <div className="experience-body">
           <div className='title'>
           <h1>Experience</h1>
           <h2>
@@ -21,10 +21,14 @@ const Experience = () => {
                         </div>
                         <div className="career-info">
                             <h4>Owner</h4>
-                            <p className="career-description">
-                                
+                            {/* <p className="career-description">
                                 Started a general construction contracting business. Split duties 
-                                between taking care of administrative tasks and working on site.</p>
+                                between taking care of administrative tasks and working on site.
+                            </p> */}
+                            <p className="career-description">
+                                Started a general construction contracting business. Split duties 
+                                between taking care of administrative tasks and working on site.
+                            </p>
                         </div>
                     </span>
                     <span className="experience-row">
@@ -90,7 +94,7 @@ const Experience = () => {
                     </span>
                 </div>
           </div>
-        </body>
+        </div>
       </div>
      );
 }

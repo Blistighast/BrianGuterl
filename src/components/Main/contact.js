@@ -6,7 +6,7 @@ import "./contact.css";
 const Contact = () => {
   return (       
   <div className='contact-container' id="contact">
-  <body className="contact-body">
+  <div className="contact-body">
     <div className='title'>
     <h1>Contact</h1>
     <h2>
@@ -30,7 +30,7 @@ const Contact = () => {
     <LikeButton />
 
     </div>
-  </body>
+  </div>
 </div> );
 }
  
