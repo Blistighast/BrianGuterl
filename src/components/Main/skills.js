@@ -162,6 +162,16 @@ const Skills = () => {
           </span>
         </li>
         <li className="ability">
+          <span className="ability-title">Docker</span>
+          <span className="stars-span">
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {solidStar}
+            {emptyStar}
+          </span>
+        </li>
+        <li className="ability">
           <span className="ability-title">Postgres</span>
           <span className="stars-span">
             {solidStar}
