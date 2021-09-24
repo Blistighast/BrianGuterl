@@ -32,7 +32,7 @@ const Skills = () => {
           </span>
         </li>
         <li className="ability">
-          <span className="ability-title">React ES6</span>
+          <span className="ability-title">React</span>
           <span className="stars-span">
             {solidStar}
             {solidStar}
@@ -92,7 +92,7 @@ const Skills = () => {
           </span>
         </li>
         <li className="ability">
-          <span className="ability-title">Node</span>
+          <span className="ability-title">NodeJS</span>
           <span className="stars-span">
             {solidStar}
             {solidStar}
@@ -172,7 +172,7 @@ const Skills = () => {
           </span>
         </li>
         <li className="ability">
-          <span className="ability-title">Postgres</span>
+          <span className="ability-title">PostgreSQL</span>
           <span className="stars-span">
             {solidStar}
             {solidStar}

@@ -12,8 +12,22 @@ const Experience = () => {
           </h2>
           <div className="line" />
             <div className="experience-list">
-                {/* <h3 className="title">Timeline</h3> */}
-
+                    <span className="experience-row">
+                        <div className="career-title">
+                            <h4>Freelance Web Developer</h4>
+                            <p className="career-period">Sep 2019 - Current</p>
+                        </div>
+                        <div className="career-info">
+                            <h4>Owner</h4>
+                            <p className="career-description">
+                             Utilize modern designs to create websites based on client needs using Javascript, HTML, CSS, 
+                             and React. Design websites with standards-compliant code, emphasizing accessibility, compatibility, 
+                             and search engine optimization (SEO). Collaborate with clients to develop all graphics and copy.
+                             Continue to work with clients to update and maintain their websites. Research and test new methods 
+                             and technologies for use in current and future projects.
+                            </p>
+                        </div>
+                    </span>
                     <span className="experience-row">
                         <div className="career-title">
                             <h4>Brian Construction Services</h4>
@@ -21,13 +35,13 @@ const Experience = () => {
                         </div>
                         <div className="career-info">
                             <h4>Owner</h4>
-                            {/* <p className="career-description">
-                                Started a general construction contracting business. Split duties 
-                                between taking care of administrative tasks and working on site.
-                            </p> */}
                             <p className="career-description">
-                                Started a general construction contracting business. Split duties 
-                                between taking care of administrative tasks and working on site.
+                                Owner of general construction contracting business. Solicit pricing from subcontractors 
+                                and create material takeoffs by analysing plans and specs to create a bid. Examine 
+                                plans and specs and submit RFI's to clarify details. Create and manage schedules 
+                                and submittals based on client and engineer needs and feedback. Run project meetings 
+                                with foremen, architects, engineers, and subcontractors to ensure projects stay on schedule.
+                                Create and submit change orders based on new developments outside the original scope of the project.
                             </p>
                         </div>
                     </span>
@@ -72,7 +86,7 @@ const Experience = () => {
                             <p className="career-description">
                                 Designed standard kitchen layouts using AutoCad and 20/20 Design
                                 for commercial and residential buildings. Helped create a new system for
-                                organizing job orders and for capacity planning for a new expansion to the
+                                organizing job orders and capacity planning for a new expansion to the
                                 warehouse and manufacturing area.</p>
                         </div>
                     </span>

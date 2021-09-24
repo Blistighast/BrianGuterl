@@ -13,30 +13,45 @@ const Projects = () => {
           <i>Okami</i> 
         </h2>
         <div className="line" />
-        <div className="projects-row">
-          <a href="https://game-exchange.brianguterl.com/">
-            <img src="./img/game-exchange.png" alt="game-exchange" className="project-link-pic" />
-          </a>
-          <a href="https://greenit.brianguterl.com/">
-            <img src="./img/greenit.png" alt="greenit" className="project-link-pic" />
-          </a>
-        </div>
-        <div className="projects-row">
-          <a href="https://project-planner-7327b.web.app/">
-            <img src="./img/ProjectPlanner.png" alt="project-planner" className="project-link-pic" />
-          </a>
-          <a href="https://mockmovierental.herokuapp.com/Movies">
-            <img src="./img/MovieRentals.png" alt="movie-rentals" className="project-link-pic" />
-          </a>
-        </div>
-        <div className="projects-row">
-          <a href="https://brians-learning-log.herokuapp.com/">
-            <img src="./img/LearningLog.png" alt="learning-log" className="project-link-pic" />
-          </a>
-          <a href="https://brian-reading-list.herokuapp.com/">
-            <img src="./img/ReadingList.png" alt="reading-list" className="project-link-pic" />
-          </a>
-        </div>
+          <div className="projects-grid">
+            <div className="projects-row">
+              <a href="https://game-exchange.brianguterl.com/">
+                <img src="./img/game-exchange.png" alt="game-exchange" className="project-link-pic" />
+              </a>
+              <a href="https://greenit.brianguterl.com/">
+                <img src="./img/greenit.png" alt="greenit" className="project-link-pic" />
+              </a>
+            </div>
+            <div className="projects-row">
+              <a href="https://www.harkin.io/">
+                <img src="./img/harkin.png" alt="harkin" className="project-link-pic" />
+              </a>
+              <a href="https://calculator-eight-gilt.vercel.app/">
+                <img src="./img/calculator.png" alt="calculator" className="project-link-pic" />
+              </a>
+            </div>
+            <div className="projects-row">
+              <a href="https://tip-calculator-nu.vercel.app/">
+                <img src="./img/Tip-Calc.png" alt="tip-calculator" className="project-link-pic" />
+              </a>
+              <a href="https://project-planner-7327b.web.app/">
+                <img src="./img/project-planner.png" alt="project-planner" className="project-link-pic" />
+              </a>
+            </div>
+            <div className="projects-row">
+              <a href="https://brians-learning-log.herokuapp.com/">
+                <img src="./img/LearningLog.png" alt="learning-log" className="project-link-pic" />
+              </a>
+              <a href="https://brian-reading-list.herokuapp.com/">
+                <img src="./img/ReadingList.png" alt="reading-list" className="project-link-pic" />
+              </a>
+            </div>
+            <div className="projects-row">
+              <a href="https://mockmovierental.herokuapp.com/Movies">
+                <img src="./img/MovieRentals.png" alt="movie-rentals" className="project-link-pic" />
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </div>

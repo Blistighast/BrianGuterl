@@ -1,61 +1,60 @@
 .contact-container {
-    font-family: "Raleway", sans-serif;
-    max-width: 100%;
-    display: grid;
-    background: #222;
-    margin: 0 auto;
+  font-family: "Raleway", sans-serif;
+  max-width: 100%;
+  display: grid;
+  background: #222;
+  margin: 0 auto;
 }
 
 .contact-body {
-    max-width: 800px;
-    padding-bottom: 40px;
-    margin-right: auto;
-    margin-left: auto;
+  max-width: 800px;
+  padding-bottom: 40px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .icon {
-      float: left;
-      max-width: 32px;
-      margin-right: 20px;
-      color: white;
-
+  float: left;
+  max-width: 32px;
+  margin-right: 1rem;
+  color: white;
 }
 
 .contacts {
-    display: flex;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 a {
-    color: #727878;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-
+  color: #727878;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .link {
-    display: flex;
-    flex-direction: column;
-    margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: 2rem;
 }
 
 .social-buttons {
-    display: flex;
-    max-width: 300px;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
 /* media queries */
-@media (max-width:1090px) {
-    .contacts {
-        flex-direction: column;
-    }
+@media (max-width: 1090px) {
+  .contacts {
+    flex-direction: column;
+  }
 
-    .contacts a {
-       margin: 5px
-    }
+  .contacts a {
+    margin: 5px;
+  }
 }

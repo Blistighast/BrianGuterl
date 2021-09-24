@@ -9,13 +9,21 @@
 .projects-body {
     max-width: 800px;
     padding-bottom: 40px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
+}
+
+.projects-grid {
+    display: grid;
+    max-width: 800px;
+    margin:auto;
+    align-items: center;
 }
 
 .projects-row {
     display: flex;
     max-width: 800px;
+    margin:auto;
+
     align-items: center;
 }
 
@@ -36,7 +44,9 @@
 @media (max-width: 1090px) {
     .projects-row {
         flex-direction: column;
+        max-width: 200px;
     }
+    
 
 }
 

@@ -18,7 +18,7 @@ const Contact = () => {
       <div className='contacts'>
         <a href="https://www.linkedin.com/in/brian-guterl-6622855b/">
           <img src="./img/iconfinder_linkedin.png" alt="linkedin-icon" className="icon" />
-          <span className="link">https://linkedin.com/in/brian-guterl/</span>
+          <span className="link">https://linkedin.com/in/brian-guterl</span>
         </a>
         <a href="mailto:brianguterl99@gmail.com">
           <img src="./img/iconfinder_contact.png" alt="contact-icon" className="icon" />
@@ -28,7 +28,6 @@ const Contact = () => {
     <div className="line" />
     <div className="social-buttons">
     <LikeButton />
-
     </div>
   </div>
 </div> );
