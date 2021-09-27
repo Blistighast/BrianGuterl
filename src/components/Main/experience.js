@@ -40,7 +40,7 @@ const Experience = () => {
                                 and create material takeoffs by analysing plans and specs to create a bid. Examine 
                                 plans and specs and submit RFI's to clarify details. Create and manage schedules 
                                 and submittals based on client and engineer needs and feedback. Run project meetings 
-                                with foremen, architects, engineers, and subcontractors to ensure projects stay on schedule.
+                                with foreman, architects, engineers, and subcontractors to ensure projects stay on schedule.
                                 Create and submit change orders based on new developments outside the original scope of the project.
                             </p>
                         </div>
