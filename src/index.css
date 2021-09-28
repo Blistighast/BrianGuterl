@@ -1,3 +1,26 @@
+/* custom scrollbar for chrome */
+::-webkit-scrollbar {
+  background: #222;
+}
+
+::-webkit-scrollbar-track {
+  background: #222;
+  margin-block: 0.25em;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #029292;
+  border: 0.2em solid #222;
+  border-radius: 100vw;
+}
+
+/* custom scrollbar support for firefox, only can effect the color */
+@supports (scrollbar-color: red blue) {
+  * {
+    scrollbar-color: #029292 #222;
+  }
+}
+
 body {
   margin: 0;
   max-height: 100%;
