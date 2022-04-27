@@ -5,12 +5,10 @@ import Projects from "./components/Main/projects";
 import Toolbar from "./components/Toolbar/Toolbar";
 import Contact from "./components/Main/contact";
 import Experience from "./components/Main/experience";
-import ThemeContextProvider from "./contexts/ThemeContext";
 
 function App() {
   return (
     <div className="App" style={{ height: "100%" }}>
-    <ThemeContextProvider>
       <Toolbar />
       <main className="main">
         <About />
@@ -19,7 +17,6 @@ function App() {
         <Projects />
         <Contact />
       </main>
-      </ThemeContextProvider>
     </div>
   );
 }

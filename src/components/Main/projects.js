@@ -1,57 +1,85 @@
 import React from "react";
-import "./projects.css"
+import Title from "./Title";
+import arrChunker from "../../utils/arrChunker";
+import "./projects.css";
+
+const projects = [
+  {
+    name: "game-exchange",
+    url: "https://game-exchange.brianguterl.com/",
+    pic: "./img/game-exchange.png",
+  },
+  {
+    name: "greenit",
+    url: "https://greenit.brianguterl.com/",
+    pic: "./img/greenit.png",
+  },
+  {
+    name: "harkin",
+    url: "https://www.harkin.io/",
+    pic: "./img/harkin.png",
+  },
+  {
+    name: "restaurantmenu",
+    url: "https://restaurant.brianguterl.com/",
+    pic: "./img/restaurantmenu.png",
+  },
+  {
+    name: "calculator",
+    url: "https://calculator-eight-gilt.vercel.app/",
+    pic: "./img/calculator.png",
+  },
+  {
+    name: "tip-calculator",
+    url: "https://tip-calculator-nu.vercel.app/",
+    pic: "./img/Tip-Calc.png",
+  },
+  {
+    name: "project-planner",
+    url: "https://project-planner-7327b.web.app/",
+    pic: "./img/project-planner.png",
+  },
+  {
+    name: "learning-log",
+    url: "https://brians-learning-log.herokuapp.com/",
+    pic: "./img/LearningLog.png",
+  },
+  {
+    name: "reading-list",
+    url: "https://brian-reading-list.herokuapp.com/",
+    pic: "./img/ReadingList.png",
+  },
+  {
+    name: "movie-rentals",
+    url: "https://mockmovierental.herokuapp.com/Movies",
+    pic: "./img/MovieRentals.png",
+  },
+];
 
 const Projects = () => {
   return (
-    <div className='projects-container' id="projects">
+    <div className="projects-container" id="projects">
       <div className="projects-body">
-        <div className='title'>
-        <h1>Projects</h1>
-        <h2>
-          "A journey of a thousand miles begins with a single step. So just take it step by step" 
-          <br /> - Waka,{" "}
-          <i>Okami</i> 
-        </h2>
-        <div className="line" />
-          <div className="projects-grid">
-            <div className="projects-row">
-              <a href="https://game-exchange.brianguterl.com/">
-                <img src="./img/game-exchange.png" alt="game-exchange" className="project-link-pic" />
-              </a>
-              <a href="https://greenit.brianguterl.com/">
-                <img src="./img/greenit.png" alt="greenit" className="project-link-pic" />
-              </a>
+        <Title
+          title="Projects"
+          quote="A journey of a thousand miles begins with a single step. So just take it step by step"
+          quotee="Waka"
+          source="Okami"
+        />
+        <div className="projects-grid">
+          {arrChunker(projects, 2).map((row, i) => (
+            <div className="projects-row" key={i}>
+              {row.map((project) => (
+                <a href={project.url} key={project.name}>
+                  <img
+                    src={project.pic}
+                    alt={project.name}
+                    className="project-link-pic"
+                  />
+                </a>
+              ))}
             </div>
-            <div className="projects-row">
-              <a href="https://www.harkin.io/">
-                <img src="./img/harkin.png" alt="harkin" className="project-link-pic" />
-              </a>
-              <a href="https://calculator-eight-gilt.vercel.app/">
-                <img src="./img/calculator.png" alt="calculator" className="project-link-pic" />
-              </a>
-            </div>
-            <div className="projects-row">
-              <a href="https://tip-calculator-nu.vercel.app/">
-                <img src="./img/Tip-Calc.png" alt="tip-calculator" className="project-link-pic" />
-              </a>
-              <a href="https://project-planner-7327b.web.app/">
-                <img src="./img/project-planner.png" alt="project-planner" className="project-link-pic" />
-              </a>
-            </div>
-            <div className="projects-row">
-              <a href="https://brians-learning-log.herokuapp.com/">
-                <img src="./img/LearningLog.png" alt="learning-log" className="project-link-pic" />
-              </a>
-              <a href="https://brian-reading-list.herokuapp.com/">
-                <img src="./img/ReadingList.png" alt="reading-list" className="project-link-pic" />
-              </a>
-            </div>
-            <div className="projects-row">
-              <a href="https://mockmovierental.herokuapp.com/Movies">
-                <img src="./img/MovieRentals.png" alt="movie-rentals" className="project-link-pic" />
-              </a>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </div>
