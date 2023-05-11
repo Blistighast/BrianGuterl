@@ -5,6 +5,11 @@ import "./projects.css";
 
 const projects = [
   {
+    name: "smite-sage",
+    url: "https://www.smitesage.com/",
+    pic: "./img/smitesage.png",
+  },
+  {
     name: "game-exchange",
     url: "https://game-exchange.brianguterl.com/",
     pic: "./img/game-exchange.png",
